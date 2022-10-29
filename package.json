@@ -1,0 +1,41 @@
+{
+  "name": "studying-abroad-forend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@gykeji/jsutil": "^2.0.0",
+    "await-to-js": "^3.0.0",
+    "moment": "^2.29.4",
+    "uni-router-interceptor": "^1.0.2",
+    "vconsole": "^3.14.7"
+  },
+  "uni-app": {
+    "scripts": {
+      "product-package": {
+        "title": "生产环境",
+        "browser": "edge",
+        "env": {
+          "UNI_PLATFORM": "h5",
+          "API_HOSTNAME": "https://api.studying.indoormap.com.cn",
+          "APP_HOSTNAME": "https://h5.studying.indoormap.com.cn"
+        },
+        "define": {
+          "CUSTOM-CONST": true
+        }
+      },
+      "local-dev-package": {
+        "title": "本地环境",
+        "browser": "edge",
+        "env": {
+          "UNI_PLATFORM": "h5",
+          "API_HOSTNAME": "http://localhost:8080",
+          "APP_HOSTNAME": "https://h5.studying.indoormap.com.cn"
+        },
+        "define": {
+          "CUSTOM-CONST": true
+        }
+      }
+    }
+  }
+}

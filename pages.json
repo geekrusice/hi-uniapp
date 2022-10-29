@@ -1,0 +1,76 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [{
+		"path": "pages/login/login",
+		"style": {
+			"navigationBarTitleText": "登录",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/home/home",
+		"style": {
+			"navigationBarTitleText": "我的主页",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/home/bindAccount/bindAccount",
+		"style": {
+			"navigationBarTitleText": "绑定账号",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/home/calendar/calendar",
+		"style": {
+			"navigationBarTitleText": "我的课表",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/home/grade/grade",
+		"style": {
+			"navigationBarTitleText": "成绩查询",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/feedback/feedback",
+		"style": {
+			"navigationBarTitleText": "帮助与反馈",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/test/test",
+		"style": {
+			"navigationBarTitleText": "测试空白页",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/home/calendar/weekCalendar/weekCalendar",
+		"style": {
+			"navigationBarTitleText": "课程表",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/home/course/course",
+		"style": {
+			"navigationBarTitleText": "今日课表",
+			"enablePullDownRefresh": false
+		}
+
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}
